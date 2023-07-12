@@ -4,7 +4,8 @@ export default function slideConfig(selector = ".swiper") {
     new Swiper(selector, {
       // Optional parameters
       // direction: "vertical",
-      speed: 400,
+      autoplay: true,
+      speed: 300,
       spaceBetween: 100,
       loop: true,
 

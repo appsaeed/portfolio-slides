@@ -15,8 +15,8 @@ const sliderMap = items.map((item) => {
   </div>`;
 });
 
-//style functions to string
-const styleString = `${loadStyles()}`;
+//style functions to css string
+const styleStrings = loadStyles();
 
 const htmlString = `
 <!-- Slider main container -->
@@ -37,4 +37,4 @@ const htmlString = `
 //main selector
 const selector = document.querySelector("#sa-portfolio-slider");
 //instert string html to dom
-selector!.innerHTML = `${styleString} ${htmlString}`;
+selector!.innerHTML = `${styleStrings} ${htmlString}`;
