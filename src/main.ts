@@ -49,7 +49,7 @@ const sliderMap = items.map((item) => {
     <img src="${item.image}" alt="${item.name}"/>
   </div>`;
 });
-document.querySelector<HTMLDivElement>("#saeed-slider")!.innerHTML = `
+document.querySelector<HTMLDivElement>("#sa-portfolio-slider")!.innerHTML = `
 <!-- Slider main container -->
 <div class="swiper">
   <!-- Additional required wrapper -->
